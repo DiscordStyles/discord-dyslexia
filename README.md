@@ -30,3 +30,4 @@
 
 # Credits
 - [OpenDyslexic font](https://opendyslexic.org/)
+- [Qwerasd205](https://github.com/qwerasd205)
