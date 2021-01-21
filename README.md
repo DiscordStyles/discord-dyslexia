@@ -1,4 +1,4 @@
-<h1 align="center">Discord-Dyslexia</h1>
+<h1 align="center">discord-dyslexia</h1>
   
 <p align="center">
   <a href="#discord-dyslexia">Overview</a> |
@@ -7,12 +7,10 @@
 </p>
 
 <p align="center">
-  <img alt="Preview" width="524" alt="preview" src="https://i.imgur.com/cCINa4T.png">
+  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/cCINa4T.png">
 <p align="center">
 
-<p align="center">
-  <i>A simple discord theme which makes the app more accommodating to people with dyslexia.</i>
-</p>
+<p align="center">A simple discord theme which makes the app more accommodating to people with dyslexia.</p>
 
 ---
 
@@ -20,7 +18,11 @@
 
 ### BetterDiscord
 
+- Coming soon
+
 ### Powercord
+
+- Coming soon
 
 ### Vizality
 
