@@ -18,15 +18,23 @@
 
 ### BetterDiscord
 
-- Coming soon
+1. Download the theme file [here](https://betterdiscord.net/ghdl?id=3474).
+2. Open your BetterDiscord themes folder.
+3. Drag the file you downloaded into the folder. Ensure there isn't a copy identifier (eg `Name.theme(1).css`) at the end of the filename.
 
 ### Powercord
 
-- Coming soon
+> Ensure you have [git](https://git-scm.com/) installed before downloading powercord or vizality related content.
+
+1. Open your terminal of choice.
+2. Run `cd powercord/src/Powercord/themes && git clone https://github.com/DiscordStyles/discord-dyslexia`.
 
 ### Vizality
 
-- Coming soon
+> Ensure you have [git](https://git-scm.com/) installed before downloading powercord or vizality related content.
+
+1. Open your terminal of choice.
+2. Run `cd vizality/addons/themes && git clone https://github.com/DiscordStyles/discord-dyslexia`.
 
 # Credits
 - [OpenDyslexic font](https://opendyslexic.org/)
