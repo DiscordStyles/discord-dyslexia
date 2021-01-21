@@ -5,7 +5,7 @@
     src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Regular.woff');
     font-style: normal;
     font-weight: normal;
-} 
+}
 
 @font-face {
 	font-family: 'OpenDyslexic';
@@ -30,22 +30,29 @@
 
 /* ----------------------------------------------------------------------- */
 
-/* Apply font globally */
+/* Backwards Compatibility */
+
+:root {
+	--line-spacing: var(--message-line-spacing);
+}
+
+/* Apply styles */
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: 'OpenDyslexic', 'Whitney', sans-serif !important;
-}
-
-/* Scaling */
-
-*:not(code), *::before, *::after, ::-webkit-input-placeholder {
-    font-size: var(--font-size, initial);
     word-spacing: var(--word-spacing, initial);
     letter-spacing: var(--letter-spacing, initial);
 }
 
 /* Adjust formatted text line-height */
 
-[class*="markup-" i] {
-    line-height: var(--line-spacing, initial) !important;
+[class*="messageContent-" i] {
+    line-height: var(--message-line-spacing, initial) !important;
+}
+
+/* Scale up timestamps & "Edited" text */
+
+[class*="group-spacing" i] [class*="timestamp"],
+[class*="messageContent-" i] time {
+    font-size: .9rem;
 }
