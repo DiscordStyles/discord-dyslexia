@@ -1,0 +1,8 @@
+{
+    "name": "Dyslexia",
+    "description": "A simple discord theme which makes the app more accommodating to people with dyslexia.",
+    "version": "1.0",
+    "author": "Tropical#8908 & Qwerasd#5202",
+    "theme": "dyslexia.theme.css",
+    "license": "MIT"
+}
