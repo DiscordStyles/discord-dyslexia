@@ -1,0 +1,51 @@
+/* Import OpenDyslexic */
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://qwerasd205.github.io/font/OpenDyslexic-Regular.woff');
+    font-style: normal;
+    font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'OpenDyslexic';
+	src: url('https://qwerasd205.github.io/font/OpenDyslexic-Italic.woff');
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'OpenDyslexic';
+	src: url('https://qwerasd205.github.io/font/OpenDyslexic-Bold.woff');
+	font-weight: bold;
+	font-style: normal;
+} 
+
+@font-face {
+	font-family: 'OpenDyslexic';
+	src: url('https://qwerasd205.github.io/font/OpenDyslexic-BoldItalic.woff');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* Apply font globally */
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: 'OpenDyslexic', 'Whitney', sans-serif !important;
+}
+
+/* Scaling */
+
+*:not(code), *::before, *::after, ::-webkit-input-placeholder {
+    font-size: var(--font-size, initial);
+    word-spacing: var(--word-spacing, initial);
+    letter-spacing: var(--letter-spacing, initial);
+}
+
+/* Adjust formatted text line-height */
+
+[class*="markup-" i] {
+    line-height: var(--line-spacing, initial) !important;
+}
