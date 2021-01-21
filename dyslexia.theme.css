@@ -17,10 +17,9 @@
 /* SETTINGS */
 
 :root {
-    --font-size: 15px;        /* Font size (Over 16px starts to cause issues) */
-    --word-spacing: 3px;      /* Word spacing */
-    --line-spacing: 2;        /* Line spacing */
-    --letter-spacing: 0.25px; /* Letter Spacing */
+    --word-spacing: 3px;       /* Word spacing */
+    --letter-spacing: 0.25px;  /* Letter Spacing */
+    --message-line-spacing: 2; /* Line spacing on messages */
 }
 
 /* ----------------------------------------------------------------------- */
