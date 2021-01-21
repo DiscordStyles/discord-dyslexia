@@ -2,28 +2,28 @@
 
 @font-face {
     font-family: 'OpenDyslexic';
-    src: url('https://qwerasd205.github.io/font/OpenDyslexic-Regular.woff');
+    src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Regular.woff');
     font-style: normal;
     font-weight: normal;
 } 
 
 @font-face {
 	font-family: 'OpenDyslexic';
-	src: url('https://qwerasd205.github.io/font/OpenDyslexic-Italic.woff');
+	src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Italic.woff');
 	font-style: italic;
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'OpenDyslexic';
-	src: url('https://qwerasd205.github.io/font/OpenDyslexic-Bold.woff');
+	src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Bold.woff');
 	font-weight: bold;
 	font-style: normal;
 } 
 
 @font-face {
 	font-family: 'OpenDyslexic';
-	src: url('https://qwerasd205.github.io/font/OpenDyslexic-BoldItalic.woff');
+	src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-BoldItalic.woff');
 	font-weight: bold;
 	font-style: italic;
 }
